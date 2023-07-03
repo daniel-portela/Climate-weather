@@ -82,3 +82,29 @@ h2 {
 }
 
 
+@media (max-width: 480px) {
+    .caixa-maior {
+        width: 60%;
+        max-width: 394px;
+        border-radius: 15px;
+    }
+    input {
+        font-size: 9px;
+    }
+    .descricao {
+        font-size: 13px;
+    }
+    
+    h2 {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 320px) {
+    .descricao {
+        font-size: 9px;
+    }
+    button {
+        padding: 6px;
+    }
+}
