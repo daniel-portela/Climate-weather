@@ -1,8 +1,4 @@
-// VARIÁVEIS => Um espaço da memória do computador que guardamos algo (um numero, uma letra, um texto, uma imagem)
-// FUNÇÃO => Um trecho de código que só é executado quando é chamado
-
 let chave = "cebcd482eda57fa9a6714c1c2ba91885"
-
 
 function colocarNaTela(dados){
     console.log(dados)
@@ -21,10 +17,8 @@ async function buscarCidade(cidade){
     "&units=metric"
     )
     .then(resposta => resposta.json())
-
     colocarNaTela(dados)
 }
-
 
 function cliqueiNoBotao(){
    let cidade = document.querySelector(".input-cidade").value
